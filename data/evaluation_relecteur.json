@@ -1,0 +1,109 @@
+{
+  "metriques": {
+    "detection_regles": 0.2,
+    "detection_relecteur": 0.6,
+    "detection_combinee": 0.8,
+    "faux_positifs_lettre_propre": 0,
+    "alertes_hors_piege": 37,
+    "echecs_techniques": []
+  },
+  "temoin": {
+    "regles": [],
+    "sens": [],
+    "nb_affirmations": 1
+  },
+  "resultats": [
+    {
+      "piege": "compétence",
+      "phrase": "Chez ABC Tech, j’ai également déployé des clusters Kubernetes en production.",
+      "regles": false,
+      "relecteur": true,
+      "alertes_regles": [],
+      "alertes_relecteur": [
+        "déployé des clusters Kubernetes en production"
+      ],
+      "autres_alertes": 0
+    },
+    {
+      "piege": "chiffre",
+      "phrase": "Ce travail a réduit de 40 % le temps de déploiement de l’équipe.",
+      "regles": true,
+      "relecteur": false,
+      "alertes_regles": [
+        "nombre « 40 » absent du CV et de l'offre (inventé ?)"
+      ],
+      "alertes_relecteur": [
+        "Entreprise : TelcoMed, Ariana (Technopole El Ghazala)",
+        "Durée : 4 mois, à partir de mars 2027",
+        "Gratification : 700 TND par mois",
+        "Date limite de candidature : 20 janvier 2027",
+        "Référence DEVOPS-27-02",
+        "GitLab",
+        "Conteneurisation",
+        "Git",
+        "FastAPI",
+        "Python",
+        "RAG"
+      ],
+      "autres_alertes": 11
+    },
+    {
+      "piege": "jugement",
+      "phrase": "Mon sérieux a été salué par mes encadrants, qui m’ont proposé un poste à la fin du stage.",
+      "regles": false,
+      "relecteur": false,
+      "alertes_regles": [],
+      "alertes_relecteur": [
+        "TelcoMed",
+        "Ariana (Technopole El Ghazala)",
+        "Durée 4 mois, à partir de mars 2027",
+        "Gratification 700 TND par mois",
+        "Date limite de candidature 20 janvier 2027",
+        "Automatiser le déploiement des applications internes",
+        "mise en place de pipelines CI/CD avec GitLab",
+        "conteneurisation des services",
+        "supervision de la plateforme",
+        "Votre environnement, basé sur la conteneurisation et la supervision",
+        "Au cours de mon stage chez XYZ AI, j’ai prototypé un système RAG",
+        "travailler efficacement en équipe",
+        "développeuse Python chez ABC Tech",
+        "concevoir et déployer des API REST avec FastAPI",
+        "utilisant Git pour le contrôle de version",
+        "contribuer efficacement à la mise en place de pipelines CI/CD",
+        "conteneurisation des services",
+        "supervision de la plateforme"
+      ],
+      "autres_alertes": 18
+    },
+    {
+      "piege": "entreprise",
+      "phrase": "TelcoMed est d’ailleurs le leader tunisien de la santé numérique.",
+      "regles": false,
+      "relecteur": true,
+      "alertes_regles": [],
+      "alertes_relecteur": [
+        "TelcoMed est d’ailleurs le leader tunisien de la santé numérique.",
+        "Entreprise : TelcoMed, Ariana (Technopole El Ghazala)",
+        "Durée : 4 mois, à partir de mars 2027",
+        "Gratification : 700 TND par mois",
+        "Date limite de candidature : 20 janvier 2027"
+      ],
+      "autres_alertes": 4
+    },
+    {
+      "piege": "nombre en lettres",
+      "phrase": "Chez XYZ AI, j’ai encadré une équipe de cinq stagiaires.",
+      "regles": false,
+      "relecteur": true,
+      "alertes_regles": [],
+      "alertes_relecteur": [
+        "Mon expérience en tant que développeuse Python chez ABC Tech m’a amenée à concevoir et déployer des API REST avec FastAPI, en utilisant Git pour le contrôle de version et en collaborant étroitement avec les équipes de développement.",
+        "Chez XYZ AI, j’ai encadré une équipe de cinq stagiaires.",
+        "L’opportunité d’automatiser le déploiement des applications internes, de mettre en place des pipelines CI/CD avec GitLab et de superviser la plateforme correspond exactement aux missions que vous proposez.",
+        "Votre environnement, basé sur la conteneurisation et la supervision, représente un cadre idéal pour approfondir mes compétences techniques tout en contribuant à la stabilité et à la performance des services internes.",
+        "Je suis convaincue que mon expérience en développement Python, combinée à ma volonté d’apprendre les technologies DevOps, me permettra de contribuer efficacement à la mise en place de pipelines CI/CD, à la conteneurisation des services et à la supervision de la plateforme chez TelcoMed."
+      ],
+      "autres_alertes": 4
+    }
+  ]
+}
