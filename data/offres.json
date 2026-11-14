@@ -1,0 +1,115 @@
+[
+  {
+    "entreprise": "BanqueNord",
+    "poste": "Data Scientist",
+    "ville": "Tunis",
+    "modalite": "non précisé",
+    "duree_mois_min": 6,
+    "duree_mois_max": 6,
+    "gratification_tnd_mois": 800,
+    "date_limite": "2026-12-15",
+    "profil": [
+      "Étudiant(e) en dernière année d'école d'ingénieurs (informatique, statistiques)"
+    ],
+    "langues": [
+      "Français courant",
+      "anglais technique"
+    ],
+    "competences_requises": [
+      [
+        "Python"
+      ],
+      [
+        "SQL"
+      ],
+      [
+        "apprentissage automatique"
+      ]
+    ],
+    "competences_bonus": [
+      "Power BI"
+    ],
+    "reference": "DS-2027-04",
+    "source": "offre_stage_data_science.md"
+  },
+  {
+    "entreprise": "TelcoMed",
+    "poste": "Ingénieur DevOps / Cloud",
+    "ville": "Ariana",
+    "modalite": "non précisé",
+    "duree_mois_min": 4,
+    "duree_mois_max": 4,
+    "gratification_tnd_mois": 700,
+    "date_limite": "2027-01-20",
+    "profil": [
+      "étudiant(e) en génie logiciel",
+      "étudiant(e) en réseaux"
+    ],
+    "langues": [],
+    "competences_requises": [
+      [
+        "Linux"
+      ],
+      [
+        "Bash"
+      ],
+      [
+        "Docker"
+      ],
+      [
+        "Kubernetes"
+      ],
+      [
+        "Prometheus"
+      ],
+      [
+        "Grafana"
+      ]
+    ],
+    "competences_bonus": [],
+    "reference": "DEVOPS-27-02",
+    "source": "offre_stage_devops.md"
+  },
+  {
+    "entreprise": "Nexalia",
+    "poste": "Generative AI & LLM Agents Intern",
+    "ville": "Sousse",
+    "modalite": "hybride",
+    "duree_mois_min": 4,
+    "duree_mois_max": 6,
+    "gratification_tnd_mois": 1000,
+    "date_limite": "2027-01-31",
+    "profil": [
+      "Computer engineering",
+      "data science student"
+    ],
+    "langues": [],
+    "competences_requises": [
+      [
+        "Python"
+      ],
+      [
+        "FastAPI",
+        "Flask"
+      ],
+      [
+        "NLP"
+      ],
+      [
+        "transformer models"
+      ],
+      [
+        "Docker"
+      ],
+      [
+        "Git"
+      ]
+    ],
+    "competences_bonus": [
+      "LLM APIs",
+      "vector databases"
+    ],
+    "reference": "GENAI-INT-27",
+    "source": "offre_stage_ia_generative.md"
+  }
+]

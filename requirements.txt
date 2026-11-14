@@ -1,0 +1,18 @@
+# Repris du projet 2
+numpy
+sentence-transformers
+pydantic
+rank-bm25
+groq
+python-dotenv
+fastapi
+uvicorn
+# Tests
+pytest
+# Projet 3, étape 3 : base vectorielle
+qdrant-client
+# Projet 3, étape 4 : LangChain
+langchain
+langchain-groq
+# Projet 3, étape 5 : LangGraph
+langgraph
