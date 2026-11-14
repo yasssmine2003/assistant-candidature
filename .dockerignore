@@ -1,0 +1,21 @@
+# Ce qui ne doit JAMAIS entrer dans l'image
+
+# Les secrets : les clés sont données au conteneur au démarrage (env_file), pas copiées dedans.
+# Une image peut être partagée (Docker Hub) : un secret copié dedans serait publié.
+.env
+*.env
+
+# L'environnement Python local (Windows) : l'image installe ses propres paquets (Linux)
+.venv/
+venv/
+
+# Caches et fichiers générés
+__pycache__/
+*.pyc
+.pytest_cache/
+data/index/
+
+# Git et l'éditeur
+.git/
+.gitignore
+.vscode/
